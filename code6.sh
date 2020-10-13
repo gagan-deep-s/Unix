@@ -1,0 +1,1 @@
+cat sampletext6.txt | sort -k3n -t "," | awk 'BEGIN{FS=","}{if($5>80 && $5>$4){print $1"|"$2"|"$3"|"$4"|"$5"|"$6}}END{}' 

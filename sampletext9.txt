@@ -1,0 +1,6 @@
+Empld ,Name, PrimarySkill , SecondarySkill
+1,Raja,Python,Oracle
+2,Latha,Oracle,Python
+3,Raghu,Python,MySQL
+4,Likit,MySQL,Oracle
+5,Latha,Python,Oracle

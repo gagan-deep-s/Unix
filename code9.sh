@@ -1,0 +1,1 @@
+cat sampletext9.txt | awk 'BEGIN{FS=","}{if($3=="Python" && $4=="Oracle"){print $1"&"$2"&"$3"&"$4}}END{}' | sort -k2 -t "," 
